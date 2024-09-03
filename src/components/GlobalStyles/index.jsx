@@ -9,7 +9,6 @@ const GlobalStyles = createGlobalStyle`
   --cor-de-border:#6BD1FF;
 }
 
-
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%;
@@ -90,6 +89,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+    appearance: button;
   -webkit-appearance: button;
 }
 button::-moz-focus-inner,
@@ -132,6 +132,7 @@ textarea {
   height: auto;
 }
 [type="search"] {
+    appearance: textfield;
   -webkit-appearance: textfield; 
   outline-offset: -2px; 
 }
